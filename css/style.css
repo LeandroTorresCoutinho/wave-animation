@@ -1,0 +1,24 @@
+body {
+    padding: 20px; 
+    text-align:center;
+}
+  
+.animated {
+    width: 160px;
+    height: 100px;
+    margin-bottom: 1rem;
+    background-image: url("../img/wave.svg");
+    background-size: 2560px;
+    background-position: 0 0;
+  
+    animation: hearty 1.5s steps(15) infinite;
+}
+
+@keyframes hearty {
+    from {
+      background-position-x: 0;
+    }
+    to {
+      background-position-x: -2400px;
+    }
+  }
